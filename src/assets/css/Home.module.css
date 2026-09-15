@@ -1,0 +1,31 @@
+.home {
+  padding: 40px;
+  background-color: #f8f9fa;
+  color: #222;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.eyebrow {
+  color: #ff4d4d;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.home h1 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.home h1 span {
+  color: #ff4d4d;
+}
+
+.sub {
+  color: #666;
+  font-size: 16px;
+  margin-top: 10px;
+}

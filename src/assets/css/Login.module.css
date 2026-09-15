@@ -1,0 +1,35 @@
+
+
+.logo {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: var(--color-text);
+}
+
+.logoDot {
+  color: var(--red);
+}
+
+.submitBtn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background: var(--red);
+  transition: background 0.2s ease;
+}
+
+.submitBtn:hover {
+  background: #e63939;
+}
+
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

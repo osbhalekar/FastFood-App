@@ -1,0 +1,28 @@
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  background: var(--main-bg);
+  color: var(--black);
+}
+
+.eyebrow {
+  color: var(--red);
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 38px;
+  margin: 8px 0;
+}
+
+h1 span {
+  color: var(--red);
+}
+
+.error {
+  color: #ff5c5c;
+}
